@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bright Lilac Website - Contact</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #DB70DB;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #EE82EE;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #BA55D3;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .contact {
+            margin-top: 50px;
+            animation: fadeIn 2s;
+        }
+
+        .contact h2 {
+            font-size: 2em;
+            color: #663399;
+        }
+
+        .contact p {
+            font-size: 1.2em;
+            max-width: 600px;
+            margin: 20px auto;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Contact Us</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<section class="contact">
+    <h2>Contact Us</h2>
+    <p>Feel free to reach out to us for any inquiries or feedback. We are here to assist you!</p>
+    <br><br>
+    <div class="contact-form-container">
+        <form class="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <br><br>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <br><br><br><br><br><br>
+    <p>Email: contact@brightlilac.com</p>
+    <p>Phone: +1-123-456-7890</p>
+    <p>Address: 123 Lilac Street, Cityville, State, Country</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 My Bright Lilac Website. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
