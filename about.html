@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website - About</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #663399;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #663399b0;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #6633996a;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .about {
+            margin-top: 50px;
+            animation: fadeIn 2s;
+            background-image: url(field.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .about h2 {
+            font-size: 2em;
+            color: #663399;
+        }
+
+        .about p {
+            font-size: 1.2em;
+            max-width: 600px;
+            margin: 20px auto;
+            color: white;
+            font-weight: 500;
+        }
+
+        .video {
+            margin-top: 30px;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>About Us</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<section class="about">
+    <!-- <h2>About Us</h2> -->
+    <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/OF4-CWR2XE8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div><br>
+    <p>This is a brief description of our website. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt ligula id velit varius, vitae fermentum turpis interdum.</p>
+    <br>
+</section>
+
+<footer>
+    <p>&copy; 2024 My Website. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
